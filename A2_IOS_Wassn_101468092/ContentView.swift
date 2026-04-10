@@ -51,7 +51,7 @@ struct ContentView: View {
                         }
                         .disabled(currentIndex == 0)
                         
-                        Button("Next") {
+                        Button("Next Product") {
                             if currentIndex < products.count - 1 {
                                 currentIndex += 1
                             }
