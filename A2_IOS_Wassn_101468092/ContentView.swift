@@ -17,7 +17,7 @@ struct ContentView: View {
             VStack(spacing: 20) {
                 
                 Text("Product Viewer")
-                    .font(.largeTitle)
+                    .font(.system(size: 34, weight: .bold))
                     .fontWeight(.bold)
                 
                 if products.isEmpty {
