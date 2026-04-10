@@ -1,4 +1,5 @@
 import SwiftUI
+import CoreData
 
 @main
 struct A2_iOS_Wassn_101468092App: App {
