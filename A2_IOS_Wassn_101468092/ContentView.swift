@@ -32,7 +32,7 @@ struct ContentView: View {
                             .font(.title)
                             .fontWeight(.bold)
                         
-                        Text("Product ID: \(product.productID ?? "")")
+                        Text("Product ID: \(product.productID ?? "")").bold()
                         Text("Description: \(product.productDescription ?? "")")
                         Text(String(format: "Price: $%.2f", product.price))
                         Text("Provider: \(product.provider ?? "")")
