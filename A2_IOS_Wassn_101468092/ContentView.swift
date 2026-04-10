@@ -40,7 +40,7 @@ struct ContentView: View {
                     .padding()
                     .frame(maxWidth: .infinity, alignment: .leading)
                     .background(Color(.systemGray5))
-                    .cornerRadius(12)
+                    .cornerRadius(16)
                     .padding(.horizontal)
                     
                     HStack(spacing: 20) {
