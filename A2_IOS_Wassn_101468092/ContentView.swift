@@ -43,7 +43,7 @@ struct ContentView: View {
                     .cornerRadius(16)
                     .padding(.horizontal)
                     
-                    HStack(spacing: 20) {
+                    HStack(spacing: 50) {
                         Button("Previous") {
                             if currentIndex > 0 {
                                 currentIndex -= 1
