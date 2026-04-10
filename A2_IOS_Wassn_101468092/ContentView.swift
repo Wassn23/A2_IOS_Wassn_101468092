@@ -19,6 +19,7 @@ struct ContentView: View {
                 Text("Product Viewer")
                     .font(.system(size: 34, weight: .bold))
                     .fontWeight(.bold)
+                    .padding(.bottom, 10)
                 
                 if products.isEmpty {
                     Text("No products found.")
