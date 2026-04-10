@@ -1,17 +1,15 @@
-//
-//  A2_IOS_Wassn_101468092App.swift
-//  A2_IOS_Wassn_101468092
-//
-//  Created by user947626 on 4/9/26.
-//
-
 import SwiftUI
 
 @main
-struct A2_IOS_Wassn_101468092App: App {
+struct A2_iOS_Wassn_101468092App: App {
+    
+    let persistenceController = PersistenceController.shared
+
     var body: some Scene {
-        DocumentGroup(newDocument: A2_IOS_Wassn_101468092Document()) { file in
-            ContentView(document: file.$document)
+        WindowGroup {
+            ContentView()
+                .environment(\.managedObjectContext,
+                             persistenceController.container.viewContext)
         }
     }
 }
