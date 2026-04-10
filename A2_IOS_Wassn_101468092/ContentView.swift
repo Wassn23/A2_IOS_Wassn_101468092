@@ -16,7 +16,7 @@ struct ContentView: View {
         NavigationStack {
             VStack(spacing: 20) {
                 
-                Text("Product Viewer")
+                Text("Product Catalog")
                     .font(.system(size: 34, weight: .bold))
                     .fontWeight(.bold)
                     .padding(.bottom, 10)
